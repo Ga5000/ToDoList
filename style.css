@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg,#153677,#4e085f);
+}
+
+.box{
+    width: 100%;
+    max-width: 550px;
+    background: #ffffff;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 16px; 
+    box-shadow: 5px 5px 5px rgba(0,0,0,.8);
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    margin-bottom: 25px;
+}
+
+.search input{
+    outline: none;
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 10px;
+}
+
+#add{
+    border: none;
+    outline: none;
+    padding: 16px 40px;
+    background: #f77700;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#add:hover{
+    font-size: 25px;
+}
+
+#task{
+    width: 520px;
+    border-radius: 8px;
+}
+
+#task ul{
+    list-style: none;
+    padding: 0;
+}
+
+#task li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#task hr{
+    width: 500px;
+}
+
+.completed{
+    height: 30px;
+    width: 30px;
+    outline: 0;
+    border: 1px solid #81888d;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.completed img{
+    width: 20px;
+    height: 20px;
+}
+
+.taskText{
+   font-size: 16px;
+   color: #000000;
+   font-weight: bold;
+}
+
+
+.edit{
+    color: #fff;
+    background:#153677;
+    border: none;
+    padding: 5px 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.edit img{
+    width: 15px;
+    height: 15px;
+}
+
+.edit:hover{
+    padding: 6px 6px;
+}
+
+.remove{
+    border: none;
+    padding: 5px 5px;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.remove:hover{
+    color: #FF0000;
+    font-weight: bold;
+}
+
+
+
+
+
+
